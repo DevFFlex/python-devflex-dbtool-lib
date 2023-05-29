@@ -1,0 +1,38 @@
+[
+    {
+        "label": "os",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "os",
+        "description": "os",
+        "detail": "os",
+        "documentation": {}
+    },
+    {
+        "label": "json",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "json",
+        "description": "json",
+        "detail": "json",
+        "documentation": {}
+    },
+    {
+        "label": "setuptools",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "setuptools",
+        "description": "setuptools",
+        "detail": "setuptools",
+        "documentation": {}
+    },
+    {
+        "label": "DFDatabase",
+        "kind": 6,
+        "importPath": "devflex_dbtool.dfdatabase_class",
+        "description": "devflex_dbtool.dfdatabase_class",
+        "peekOfCode": "class DFDatabase:\n    def __init__(self,filename) -> None:\n        self.__path = os.getcwd()\n        self.__directoryName = 'Data'\n        self.__directoryPath = os.path.join(self.__path,self.__directoryName)\n        self.__filename = filename\n        self.__datafilePath = os.path.join(self.__directoryPath,self.__filename) + '.json'\n        if not self.isDirectory():\n            self.__createData()\n    def __createData(self):",
+        "detail": "devflex_dbtool.dfdatabase_class",
+        "documentation": {}
+    }
+]

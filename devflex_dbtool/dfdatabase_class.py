@@ -1,7 +1,7 @@
 import os
 import json
 
-class Database:
+class DFDatabase:
 
     def __init__(self,filename) -> None:
         self.__path = os.getcwd()
